@@ -47,7 +47,7 @@ public class App {
         return String.format("Do you %s your %s %s %s? That's hilarious!", verb, adjective, noun, adverb);
     }
 
-    public void printOutput(String output) {
-        System.out.println(output);
+    public void printOutput(String out) {
+        System.out.println(out);
     }
 }
