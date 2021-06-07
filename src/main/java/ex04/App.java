@@ -13,13 +13,16 @@ public class App {
     public static void main(String[] args) {
         App myApp = new App();
 
+        // Input
         String myNoun = myApp.readNoun();
         String myVerb = myApp.readVerb();
         String myAdjective = myApp.readAdjective();
         String myAdverb = myApp.readAdverb();
 
+        // Interpolation
         String interpolation = myApp.interpolateString(myNoun, myVerb, myAdjective, myAdverb);
 
+        // Output
         myApp.printOutput(interpolation);
     }
 
